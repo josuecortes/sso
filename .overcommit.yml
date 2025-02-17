@@ -1,0 +1,18 @@
+PreCommit:
+  RuboCop:
+    enabled: true
+    command: ['bundle', 'exec', 'rubocop']
+  BundleAudit:
+    enabled: true
+  BundleCheck:
+    enabled: true
+  EsLint:
+    enabled: true
+  Brakeman:
+    enabled: true
+  RailsBestPractices:
+    enabled: true
+  RailsSchemaUpToDate:
+    enabled: true
+  Reek:
+    enabled: true

@@ -30,6 +30,7 @@ group :development, :test do
   # Static analysis for security vulnerabilities [https://brakemanscanner.org/]
   gem "brakeman", require: false
   gem "bullet"
+  gem "reek"
   gem "rubocop"
   gem "rubocop-md", require: false
   gem "rubocop-performance", require: false
@@ -39,5 +40,6 @@ group :development, :test do
 end
 
 group :development do
+  gem "overcommit"
   gem "web-console"
 end
